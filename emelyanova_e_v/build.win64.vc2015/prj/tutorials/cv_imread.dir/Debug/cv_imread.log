@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/st/Desktop/sample/prj/tutorials/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\st\Desktop\sample\build.win64.vc2015\prj\tutorials\CMakeFiles\generate.stamp is up-to-date.
+  cv_imread.cpp
+  cv_imread.vcxproj -> C:\Users\st\Desktop\sample\bin.win64.vc2015.dbg\cv_imread.exe

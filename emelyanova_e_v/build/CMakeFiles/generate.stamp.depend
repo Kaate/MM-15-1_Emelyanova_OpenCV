@@ -1,0 +1,23 @@
+# CMake generation dependency list for this directory.
+D:/soft/CMake/cmake-3.13.2-win64-x64/share/cmake-3.13/Modules/CMakeCInformation.cmake
+D:/soft/CMake/cmake-3.13.2-win64-x64/share/cmake-3.13/Modules/CMakeCXXInformation.cmake
+D:/soft/CMake/cmake-3.13.2-win64-x64/share/cmake-3.13/Modules/CMakeCommonLanguageInclude.cmake
+D:/soft/CMake/cmake-3.13.2-win64-x64/share/cmake-3.13/Modules/CMakeGenericSystem.cmake
+D:/soft/CMake/cmake-3.13.2-win64-x64/share/cmake-3.13/Modules/CMakeInitializeConfigs.cmake
+D:/soft/CMake/cmake-3.13.2-win64-x64/share/cmake-3.13/Modules/CMakeLanguageInformation.cmake
+D:/soft/CMake/cmake-3.13.2-win64-x64/share/cmake-3.13/Modules/CMakeRCInformation.cmake
+D:/soft/CMake/cmake-3.13.2-win64-x64/share/cmake-3.13/Modules/CMakeSystemSpecificInformation.cmake
+D:/soft/CMake/cmake-3.13.2-win64-x64/share/cmake-3.13/Modules/CMakeSystemSpecificInitialize.cmake
+D:/soft/CMake/cmake-3.13.2-win64-x64/share/cmake-3.13/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/soft/CMake/cmake-3.13.2-win64-x64/share/cmake-3.13/Modules/Compiler/MSVC-C.cmake
+D:/soft/CMake/cmake-3.13.2-win64-x64/share/cmake-3.13/Modules/Compiler/MSVC-CXX.cmake
+D:/soft/CMake/cmake-3.13.2-win64-x64/share/cmake-3.13/Modules/Platform/Windows-MSVC-C.cmake
+D:/soft/CMake/cmake-3.13.2-win64-x64/share/cmake-3.13/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/soft/CMake/cmake-3.13.2-win64-x64/share/cmake-3.13/Modules/Platform/Windows-MSVC.cmake
+D:/soft/CMake/cmake-3.13.2-win64-x64/share/cmake-3.13/Modules/Platform/Windows.cmake
+D:/soft/CMake/cmake-3.13.2-win64-x64/share/cmake-3.13/Modules/Platform/WindowsPaths.cmake
+D:/study/emelyanova_e_v/emelyanova_e_v/CMakeLists.txt
+D:/study/emelyanova_e_v/emelyanova_e_v/build/CMakeFiles/3.13.2/CMakeCCompiler.cmake
+D:/study/emelyanova_e_v/emelyanova_e_v/build/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake
+D:/study/emelyanova_e_v/emelyanova_e_v/build/CMakeFiles/3.13.2/CMakeRCCompiler.cmake
+D:/study/emelyanova_e_v/emelyanova_e_v/build/CMakeFiles/3.13.2/CMakeSystem.cmake

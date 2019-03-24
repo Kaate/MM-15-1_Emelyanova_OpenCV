@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+D:/soft/CMake/cmake-3.13.2-win64-x64/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake
+D:/soft/CMake/cmake-3.13.2-win64-x64/share/cmake-3.13/Modules/FindPackageMessage.cmake
+D:/study/emelyanova_e_v/emelyanova_e_v/prj/cv_hello_word/CMakeLists.txt
+D:/study/opencv/build/OpenCVConfig-version.cmake
+D:/study/opencv/build/OpenCVConfig.cmake
+D:/study/opencv/build/x64/vc15/lib/OpenCVConfig.cmake
+D:/study/opencv/build/x64/vc15/lib/OpenCVModules-debug.cmake
+D:/study/opencv/build/x64/vc15/lib/OpenCVModules-release.cmake
+D:/study/opencv/build/x64/vc15/lib/OpenCVModules.cmake

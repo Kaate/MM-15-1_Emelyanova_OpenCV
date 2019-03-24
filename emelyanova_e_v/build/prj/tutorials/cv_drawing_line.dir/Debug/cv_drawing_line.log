@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/study/emelyanova_e_v/sample/prj/tutorials/CMakeLists.txt
+  CMake does not need to re-run because D:/study/emelyanova_e_v/sample/build/prj/tutorials/CMakeFiles/generate.stamp is up-to-date.
+  cv_drawing_line.cpp
+  cv_drawing_line.vcxproj -> D:\study\emelyanova_e_v\sample\bin.win64.vc2015.dbg\cv_drawing_line.exe

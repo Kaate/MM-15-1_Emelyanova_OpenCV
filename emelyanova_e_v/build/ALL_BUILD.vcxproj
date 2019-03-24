@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{37A255D2-1A86-3A7E-BCF6-03753FF37875}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\study\emelyanova_e_v\emelyanova_e_v\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/study/emelyanova_e_v/emelyanova_e_v/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\soft\CMake\cmake-3.13.2-win64-x64\bin\cmake.exe -SD:/study/emelyanova_e_v/emelyanova_e_v -BD:/study/emelyanova_e_v/emelyanova_e_v/build --check-stamp-file D:/study/emelyanova_e_v/emelyanova_e_v/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/study/emelyanova_e_v/emelyanova_e_v/CMakeLists.txt;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;D:\study\emelyanova_e_v\emelyanova_e_v\CMakeLists.txt;D:\study\emelyanova_e_v\emelyanova_e_v\build\CMakeFiles\3.13.2\CMakeCCompiler.cmake;D:\study\emelyanova_e_v\emelyanova_e_v\build\CMakeFiles\3.13.2\CMakeCXXCompiler.cmake;D:\study\emelyanova_e_v\emelyanova_e_v\build\CMakeFiles\3.13.2\CMakeRCCompiler.cmake;D:\study\emelyanova_e_v\emelyanova_e_v\build\CMakeFiles\3.13.2\CMakeSystem.cmake;D:\study\emelyanova_e_v\emelyanova_e_v\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\study\emelyanova_e_v\emelyanova_e_v\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/study/emelyanova_e_v/emelyanova_e_v/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\soft\CMake\cmake-3.13.2-win64-x64\bin\cmake.exe -SD:/study/emelyanova_e_v/emelyanova_e_v -BD:/study/emelyanova_e_v/emelyanova_e_v/build --check-stamp-file D:/study/emelyanova_e_v/emelyanova_e_v/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/study/emelyanova_e_v/emelyanova_e_v/CMakeLists.txt;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;D:\study\emelyanova_e_v\emelyanova_e_v\CMakeLists.txt;D:\study\emelyanova_e_v\emelyanova_e_v\build\CMakeFiles\3.13.2\CMakeCCompiler.cmake;D:\study\emelyanova_e_v\emelyanova_e_v\build\CMakeFiles\3.13.2\CMakeCXXCompiler.cmake;D:\study\emelyanova_e_v\emelyanova_e_v\build\CMakeFiles\3.13.2\CMakeRCCompiler.cmake;D:\study\emelyanova_e_v\emelyanova_e_v\build\CMakeFiles\3.13.2\CMakeSystem.cmake;D:\study\emelyanova_e_v\emelyanova_e_v\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\study\emelyanova_e_v\emelyanova_e_v\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/study/emelyanova_e_v/emelyanova_e_v/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\soft\CMake\cmake-3.13.2-win64-x64\bin\cmake.exe -SD:/study/emelyanova_e_v/emelyanova_e_v -BD:/study/emelyanova_e_v/emelyanova_e_v/build --check-stamp-file D:/study/emelyanova_e_v/emelyanova_e_v/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/study/emelyanova_e_v/emelyanova_e_v/CMakeLists.txt;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;D:\study\emelyanova_e_v\emelyanova_e_v\CMakeLists.txt;D:\study\emelyanova_e_v\emelyanova_e_v\build\CMakeFiles\3.13.2\CMakeCCompiler.cmake;D:\study\emelyanova_e_v\emelyanova_e_v\build\CMakeFiles\3.13.2\CMakeCXXCompiler.cmake;D:\study\emelyanova_e_v\emelyanova_e_v\build\CMakeFiles\3.13.2\CMakeRCCompiler.cmake;D:\study\emelyanova_e_v\emelyanova_e_v\build\CMakeFiles\3.13.2\CMakeSystem.cmake;D:\study\emelyanova_e_v\emelyanova_e_v\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\study\emelyanova_e_v\emelyanova_e_v\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/study/emelyanova_e_v/emelyanova_e_v/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\soft\CMake\cmake-3.13.2-win64-x64\bin\cmake.exe -SD:/study/emelyanova_e_v/emelyanova_e_v -BD:/study/emelyanova_e_v/emelyanova_e_v/build --check-stamp-file D:/study/emelyanova_e_v/emelyanova_e_v/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/study/emelyanova_e_v/emelyanova_e_v/CMakeLists.txt;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\soft\CMake\cmake-3.13.2-win64-x64\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;D:\study\emelyanova_e_v\emelyanova_e_v\CMakeLists.txt;D:\study\emelyanova_e_v\emelyanova_e_v\build\CMakeFiles\3.13.2\CMakeCCompiler.cmake;D:\study\emelyanova_e_v\emelyanova_e_v\build\CMakeFiles\3.13.2\CMakeCXXCompiler.cmake;D:\study\emelyanova_e_v\emelyanova_e_v\build\CMakeFiles\3.13.2\CMakeRCCompiler.cmake;D:\study\emelyanova_e_v\emelyanova_e_v\build\CMakeFiles\3.13.2\CMakeSystem.cmake;D:\study\emelyanova_e_v\emelyanova_e_v\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\study\emelyanova_e_v\emelyanova_e_v\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\study\emelyanova_e_v\emelyanova_e_v\build\ZERO_CHECK.vcxproj">
+      <Project>{4F6942D5-9529-3562-BDA5-EB587C8FB69B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\study\emelyanova_e_v\emelyanova_e_v\build\prj\tutorials\cv_cmdusage.vcxproj">
+      <Project>{A899A8A6-7697-3304-B3C3-EFFAE02A8C86}</Project>
+      <Name>cv_cmdusage</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\study\emelyanova_e_v\emelyanova_e_v\build\prj\tutorials\cv_drawing_circle.vcxproj">
+      <Project>{4A6B5D84-7A42-304A-8E3D-9D9E712A0940}</Project>
+      <Name>cv_drawing_circle</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\study\emelyanova_e_v\emelyanova_e_v\build\prj\tutorials\cv_drawing_line.vcxproj">
+      <Project>{CD3FB04A-6E38-396A-9B63-64AE4A5A6AB9}</Project>
+      <Name>cv_drawing_line</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\study\emelyanova_e_v\emelyanova_e_v\build\prj\tutorials\cv_gui_imageblendig.vcxproj">
+      <Project>{444DC3EA-EAE1-3C03-8A5A-FDD6337274EB}</Project>
+      <Name>cv_gui_imageblendig</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\study\emelyanova_e_v\emelyanova_e_v\build\prj\cv_hello_word\cv_hello_word.vcxproj">
+      <Project>{EE8687D2-8B7B-3457-955A-E63CCBC44CF8}</Project>
+      <Name>cv_hello_word</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\study\emelyanova_e_v\emelyanova_e_v\build\prj\tutorials\cv_image_info.vcxproj">
+      <Project>{8C5CBA9B-7CE1-3536-A517-301026084791}</Project>
+      <Name>cv_image_info</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\study\emelyanova_e_v\emelyanova_e_v\build\prj\tutorials\cv_imread.vcxproj">
+      <Project>{D2A3113A-C24E-324E-AFEA-15EDC804EC0A}</Project>
+      <Name>cv_imread</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\study\emelyanova_e_v\emelyanova_e_v\build\prj\tutorials\cv_imwrite.vcxproj">
+      <Project>{DA8F7D3E-E3E5-3DE2-AC69-DD1DB47D7B83}</Project>
+      <Name>cv_imwrite</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\study\emelyanova_e_v\emelyanova_e_v\build\prj\tutorials\cv_mat_create_print.vcxproj">
+      <Project>{049E38F5-B46E-3658-81C7-8FBBDEE87B8A}</Project>
+      <Name>cv_mat_create_print</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\study\emelyanova_e_v\emelyanova_e_v\build\lessons\kr1\kr1.vcxproj">
+      <Project>{3CE12FCA-7B70-323D-AA93-0794FF4F7FED}</Project>
+      <Name>kr1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\study\emelyanova_e_v\emelyanova_e_v\build\lessons\laba1\laba1.vcxproj">
+      <Project>{3EC75F24-9AF7-3702-B35A-B6D7F84435DC}</Project>
+      <Name>laba1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

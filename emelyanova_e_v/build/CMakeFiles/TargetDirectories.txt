@@ -1,0 +1,16 @@
+D:/study/emelyanova_e_v/emelyanova_e_v/build/CMakeFiles/ALL_BUILD.dir
+D:/study/emelyanova_e_v/emelyanova_e_v/build/CMakeFiles/ZERO_CHECK.dir
+D:/study/emelyanova_e_v/emelyanova_e_v/build/prj/tutorials/CMakeFiles/cv_cmdusage.dir
+D:/study/emelyanova_e_v/emelyanova_e_v/build/prj/tutorials/CMakeFiles/cv_mat_create_print.dir
+D:/study/emelyanova_e_v/emelyanova_e_v/build/prj/tutorials/CMakeFiles/cv_imwrite.dir
+D:/study/emelyanova_e_v/emelyanova_e_v/build/prj/tutorials/CMakeFiles/cv_drawing_circle.dir
+D:/study/emelyanova_e_v/emelyanova_e_v/build/prj/tutorials/CMakeFiles/cv_drawing_line.dir
+D:/study/emelyanova_e_v/emelyanova_e_v/build/prj/tutorials/CMakeFiles/cv_gui_imageblendig.dir
+D:/study/emelyanova_e_v/emelyanova_e_v/build/prj/tutorials/CMakeFiles/cv_image_info.dir
+D:/study/emelyanova_e_v/emelyanova_e_v/build/prj/tutorials/CMakeFiles/cv_imread.dir
+D:/study/emelyanova_e_v/emelyanova_e_v/build/prj/cv_hello_word/CMakeFiles/cv_hello_word.dir
+D:/study/emelyanova_e_v/emelyanova_e_v/build/prj/cv_hello_word/CMakeFiles/ALL_BUILD.dir
+D:/study/emelyanova_e_v/emelyanova_e_v/build/lessons/kr1/CMakeFiles/kr1.dir
+D:/study/emelyanova_e_v/emelyanova_e_v/build/lessons/kr1/CMakeFiles/ALL_BUILD.dir
+D:/study/emelyanova_e_v/emelyanova_e_v/build/lessons/laba1/CMakeFiles/laba1.dir
+D:/study/emelyanova_e_v/emelyanova_e_v/build/lessons/laba1/CMakeFiles/ALL_BUILD.dir

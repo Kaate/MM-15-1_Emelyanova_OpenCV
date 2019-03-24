@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+C:/Users/st/Desktop/sample/prj/cv_hello_word/CMakeLists.txt
+C:/OpenCV/opencv/build/OpenCVConfig-version.cmake
+C:/OpenCV/opencv/build/OpenCVConfig.cmake
+C:/OpenCV/opencv/build/x64/vc14/lib/OpenCVConfig.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeParseArguments.cmake
+C:/OpenCV/opencv/build/x64/vc14/lib/OpenCVModules.cmake
+C:/OpenCV/opencv/build/x64/vc14/lib/OpenCVModules-debug.cmake
+C:/OpenCV/opencv/build/x64/vc14/lib/OpenCVModules-release.cmake

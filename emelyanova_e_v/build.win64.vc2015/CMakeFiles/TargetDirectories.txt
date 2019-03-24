@@ -1,0 +1,12 @@
+C:/Users/st/Desktop/sample/build.win64.vc2015/CMakeFiles/ALL_BUILD.dir
+C:/Users/st/Desktop/sample/build.win64.vc2015/CMakeFiles/ZERO_CHECK.dir
+C:/Users/st/Desktop/sample/build.win64.vc2015/prj/tutorials/CMakeFiles/cv_imread.dir
+C:/Users/st/Desktop/sample/build.win64.vc2015/prj/tutorials/CMakeFiles/cv_gui_imageblendig.dir
+C:/Users/st/Desktop/sample/build.win64.vc2015/prj/tutorials/CMakeFiles/cv_cmdusage.dir
+C:/Users/st/Desktop/sample/build.win64.vc2015/prj/tutorials/CMakeFiles/cv_imwrite.dir
+C:/Users/st/Desktop/sample/build.win64.vc2015/prj/tutorials/CMakeFiles/cv_drawing_circle.dir
+C:/Users/st/Desktop/sample/build.win64.vc2015/prj/tutorials/CMakeFiles/cv_mat_create_print.dir
+C:/Users/st/Desktop/sample/build.win64.vc2015/prj/tutorials/CMakeFiles/cv_drawing_line.dir
+C:/Users/st/Desktop/sample/build.win64.vc2015/prj/tutorials/CMakeFiles/cv_image_info.dir
+C:/Users/st/Desktop/sample/build.win64.vc2015/prj/cv_hello_word/CMakeFiles/cv_hello_word.dir
+C:/Users/st/Desktop/sample/build.win64.vc2015/prj/cv_hello_word/CMakeFiles/ALL_BUILD.dir
