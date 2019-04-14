@@ -11,7 +11,11 @@ int main()
 	Mat image_res(512, 512, CV_8UC3, Scalar(255, 255, 255));
 	Mat image(Mat::zeros(256, 256, CV_8UC1));
 
-	image = imread("D:/study/emelyanova_e_v/sample/testdata/kek.jpg");
+	image = imread("D:/study/emelyanova_e_v/MM-15-1_Emelyanova_OpenCV/emelyanova_e_v/testdata/kek.jpg");
+	if (!image.data) {
+		return -1;
+	}
+	else 
 	image.copyTo(image_res(Rect(0, 0, image.cols, image.rows)));
 
 	Mat img_temp(Mat::zeros(256, 256, CV_8UC1));
