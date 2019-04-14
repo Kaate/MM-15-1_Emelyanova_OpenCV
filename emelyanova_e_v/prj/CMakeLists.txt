@@ -1,2 +1,0 @@
-add_subdirectory(tutorials)
-add_subdirectory(cv_hello_word)
