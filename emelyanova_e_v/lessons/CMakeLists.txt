@@ -1,3 +1,5 @@
 add_subdirectory(kr1)
 add_subdirectory(laba1)
 add_subdirectory(laba2)
+add_subdirectory(idz)
+add_subdirectory(diplom)
